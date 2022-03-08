@@ -1,0 +1,36 @@
+CRITICAL - 2022-02-28 19:24:02 --> Undefined array key "nik"
+#0 C:\xampp\htdocs\ukkrpl2022\app\Models\CatatanPerjalanan_model.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\ukkrpl2022\app\Controllers\CatatanPerjalanan.php(24): App\Models\CatatanPerjalanan_model::get_byNIK('333')
+#2 C:\xampp\htdocs\ukkrpl2022\system\CodeIgniter.php(825): App\Controllers\CatatanPerjalanan->index()
+#3 C:\xampp\htdocs\ukkrpl2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatatanPerjalanan))
+#4 C:\xampp\htdocs\ukkrpl2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ukkrpl2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ukkrpl2022\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-28 19:28:40 --> file_put_contents(): Argument #4 ($context) must be of type resource or null, string given
+#0 C:\xampp\htdocs\ukkrpl2022\app\Models\CatatanPerjalanan_model.php(10): file_put_contents('catatan_perjala...', '\r\n2022-03-01,08...', 8, '333')
+#1 C:\xampp\htdocs\ukkrpl2022\app\Controllers\IsiData.php(32): App\Models\CatatanPerjalanan_model::tambah('2022-03-01', '08:28', 'Kelas 10 TKJ', '32', '333')
+#2 C:\xampp\htdocs\ukkrpl2022\system\CodeIgniter.php(825): App\Controllers\IsiData->simpan()
+#3 C:\xampp\htdocs\ukkrpl2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\IsiData))
+#4 C:\xampp\htdocs\ukkrpl2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ukkrpl2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ukkrpl2022\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-28 19:31:20 --> Undefined array key "nik"
+#0 C:\xampp\htdocs\ukkrpl2022\app\Models\CatatanPerjalanan_model.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\ukkrpl2022\app\Controllers\CatatanPerjalanan.php(24): App\Models\CatatanPerjalanan_model::get_byNIK('333')
+#2 C:\xampp\htdocs\ukkrpl2022\system\CodeIgniter.php(825): App\Controllers\CatatanPerjalanan->index()
+#3 C:\xampp\htdocs\ukkrpl2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatatanPerjalanan))
+#4 C:\xampp\htdocs\ukkrpl2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ukkrpl2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ukkrpl2022\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-02-28 19:31:47 --> Undefined array key "nik"
+#0 C:\xampp\htdocs\ukkrpl2022\app\Models\CatatanPerjalanan_model.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\ukkrpl2022\app\Controllers\CatatanPerjalanan.php(24): App\Models\CatatanPerjalanan_model::get_byNIK('333')
+#2 C:\xampp\htdocs\ukkrpl2022\system\CodeIgniter.php(825): App\Controllers\CatatanPerjalanan->index()
+#3 C:\xampp\htdocs\ukkrpl2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatatanPerjalanan))
+#4 C:\xampp\htdocs\ukkrpl2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ukkrpl2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ukkrpl2022\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}

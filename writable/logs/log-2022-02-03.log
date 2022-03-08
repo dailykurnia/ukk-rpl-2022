@@ -1,0 +1,7 @@
+CRITICAL - 2022-02-03 06:33:44 --> Class "App\Models\User" not found
+#0 C:\Users\WORK\Documents\dika\ci4\ukkrpl\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#1 C:\Users\WORK\Documents\dika\ci4\ukkrpl\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\WORK\Documents\dika\ci4\ukkrpl\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\WORK\Documents\dika\ci4\ukkrpl\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\WORK\Documents\dika\ci4\ukkrpl\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#5 {main}

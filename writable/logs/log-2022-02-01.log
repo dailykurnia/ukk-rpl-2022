@@ -1,0 +1,537 @@
+CRITICAL - 2022-02-01 08:31:10 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\spark(45): require('C:\\Users\\WORK\\D...')
+#4 {main}
+CRITICAL - 2022-02-01 01:55:30 --> Invalid file: index.php
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('index.php')
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Home.php(9): view('index')
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#8 {main}
+CRITICAL - 2022-02-01 13:55:43 --> Array to string conversion
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Home.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\Users\\WORK\\D...', 11)
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#6 {main}
+CRITICAL - 2022-02-01 13:57:52 --> Array to string conversion
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\Users\\WORK\\D...', 14)
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#6 {main}
+CRITICAL - 2022-02-01 14:00:17 --> Undefined variable $array
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Home.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\WORK\\D...', 13)
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#6 {main}
+CRITICAL - 2022-02-01 14:03:22 --> Undefined array key 2
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Home.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\WORK\\D...', 18)
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#6 {main}
+CRITICAL - 2022-02-01 14:33:14 --> Class "User" not found
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#5 {main}
+CRITICAL - 2022-02-01 14:34:22 --> Class "User" not found
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#5 {main}
+CRITICAL - 2022-02-01 14:34:54 --> Class "User" not found
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#5 {main}
+CRITICAL - 2022-02-01 14:34:55 --> Class "User" not found
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#5 {main}
+CRITICAL - 2022-02-01 14:34:58 --> Class "User" not found
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#5 {main}
+CRITICAL - 2022-02-01 14:34:58 --> Class "User" not found
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#5 {main}
+CRITICAL - 2022-02-01 14:34:59 --> Class "User" not found
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#5 {main}
+CRITICAL - 2022-02-01 14:34:59 --> Class "User" not found
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#5 {main}
+CRITICAL - 2022-02-01 14:34:59 --> Class "User" not found
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#5 {main}
+CRITICAL - 2022-02-01 14:35:20 --> Class "User" not found
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#5 {main}
+CRITICAL - 2022-02-01 14:35:25 --> Class "User" not found
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#5 {main}
+CRITICAL - 2022-02-01 14:36:31 --> Class "User" not found
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#5 {main}
+CRITICAL - 2022-02-01 14:36:36 --> Class "User" not found
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#5 {main}
+CRITICAL - 2022-02-01 14:36:41 --> Class "User" not found
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#5 {main}
+CRITICAL - 2022-02-01 14:37:23 --> Too few arguments to function App\Controllers\Auth::login(), 0 passed in C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php on line 825 and exactly 2 expected
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#5 {main}
+CRITICAL - 2022-02-01 14:38:12 --> Class "User" not found
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#5 {main}
+CRITICAL - 2022-02-01 14:38:16 --> Class "User" not found
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#5 {main}
+CRITICAL - 2022-02-01 14:38:27 --> Class "Model" not found
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\WORK\\D...')
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User')
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Auth.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User')
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#9 {main}
+CRITICAL - 2022-02-01 14:38:36 --> Class "Model" not found
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\WORK\\D...')
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User')
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Auth.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User')
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#9 {main}
+CRITICAL - 2022-02-01 14:38:57 --> Class "App\Models\Model" not found
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\WORK\\D...')
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User')
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Auth.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User')
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#9 {main}
+CRITICAL - 2022-02-01 14:39:08 --> Class "Model" not found
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\WORK\\D...')
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User')
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Auth.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User')
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#6 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#9 {main}
+CRITICAL - 2022-02-01 14:39:26 --> The use statement with non-compound name 'Model' has no effect
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\system\Autoloader\Autoloader.php(264): CodeIgniter\Debug\Exceptions->errorHandler(2, 'The use stateme...', 'C:\\Users\\WORK\\D...', 2)
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\system\Autoloader\Autoloader.php(264): include_once()
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\WORK\\D...')
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\User')
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Auth.php(10): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\User')
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#6 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#7 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#10 {main}
+CRITICAL - 2022-02-01 14:39:43 --> Class "App\Models\User" not found
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#5 {main}
+CRITICAL - 2022-02-01 14:39:54 --> Class "User" not found
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#5 {main}
+CRITICAL - 2022-02-01 14:43:02 --> Class "User" not found
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#5 {main}
+CRITICAL - 2022-02-01 14:43:16 --> Undefined array key "nik"
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\app\Models\User.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\WORK\\D...', 11)
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Auth.php(10): App\Models\User::authenticate('1234987', 'Adhika')
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#7 {main}
+CRITICAL - 2022-02-01 14:44:53 --> Array to string conversion
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\app\Models\User.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\Users\\WORK\\D...', 11)
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Auth.php(10): App\Models\User::authenticate('1234987', 'Adhika')
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#7 {main}
+CRITICAL - 2022-02-01 14:45:09 --> Array to string conversion
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\app\Models\User.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\Users\\WORK\\D...', 11)
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Auth.php(10): App\Models\User::authenticate('1234987', 'Adhika')
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#7 {main}
+CRITICAL - 2022-02-01 14:45:28 --> Undefined array key "nik"
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\app\Models\User.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\WORK\\D...', 10)
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Auth.php(10): App\Models\User::authenticate('1234987', 'Adhika')
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#7 {main}
+CRITICAL - 2022-02-01 14:45:41 --> Undefined array key "nik"
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\app\Models\User.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\WORK\\D...', 11)
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Auth.php(10): App\Models\User::authenticate('1234987', 'Adhika')
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#7 {main}
+CRITICAL - 2022-02-01 14:46:15 --> Undefined array key "nik"
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\app\Models\User.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\WORK\\D...', 10)
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Auth.php(10): App\Models\User::authenticate('1234987', 'Adhika')
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#7 {main}
+CRITICAL - 2022-02-01 14:46:32 --> Undefined array key "nik"
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\app\Models\User.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\WORK\\D...', 11)
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Auth.php(10): App\Models\User::authenticate('1234987', 'Adhika')
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#7 {main}
+CRITICAL - 2022-02-01 14:46:41 --> Undefined array key "nik"
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\app\Models\User.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\WORK\\D...', 10)
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Auth.php(10): App\Models\User::authenticate('1234987', 'Adhika')
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#7 {main}
+CRITICAL - 2022-02-01 14:46:53 --> Undefined array key "nik"
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\app\Models\User.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\WORK\\D...', 11)
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Auth.php(10): App\Models\User::authenticate('1234987', 'Adhika')
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#7 {main}
+CRITICAL - 2022-02-01 14:47:05 --> Undefined array key "nik"
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\app\Models\User.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\WORK\\D...', 11)
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Auth.php(10): App\Models\User::authenticate('1234987', 'Adhika')
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#7 {main}
+CRITICAL - 2022-02-01 14:47:30 --> Undefined array key "nik"
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\app\Models\User.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\WORK\\D...', 11)
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Auth.php(10): App\Models\User::authenticate('1234987', 'Adhika')
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#7 {main}
+CRITICAL - 2022-02-01 14:47:49 --> Undefined array key "nik"
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\app\Models\User.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\WORK\\D...', 10)
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Auth.php(10): App\Models\User::authenticate('1234987', 'Adhika')
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#7 {main}
+CRITICAL - 2022-02-01 14:48:12 --> Undefined array key "nik"
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\app\Models\User.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\WORK\\D...', 10)
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Auth.php(10): App\Models\User::authenticate('1234987', 'Adhika')
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#7 {main}
+CRITICAL - 2022-02-01 14:48:24 --> Undefined array key "nik"
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\app\Models\User.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\WORK\\D...', 10)
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Auth.php(10): App\Models\User::authenticate('1234987', 'Adhika')
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#7 {main}
+CRITICAL - 2022-02-01 14:48:43 --> Undefined array key "nik"
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\app\Models\User.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\WORK\\D...', 10)
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Auth.php(10): App\Models\User::authenticate('1234987', 'Adhika')
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#7 {main}
+CRITICAL - 2022-02-01 14:48:55 --> Undefined array key "nik"
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\app\Models\User.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\WORK\\D...', 10)
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Auth.php(10): App\Models\User::authenticate('1234987', 'Adhika')
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#7 {main}
+CRITICAL - 2022-02-01 14:50:17 --> Undefined array key "nik"
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\app\Models\User.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\WORK\\D...', 10)
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Auth.php(10): App\Models\User::authenticate('1234987', 'Adhika')
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#7 {main}
+CRITICAL - 2022-02-01 14:50:17 --> Undefined array key "nik"
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\app\Models\User.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\WORK\\D...', 10)
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Auth.php(10): App\Models\User::authenticate('1234987', 'Adhika')
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#7 {main}
+CRITICAL - 2022-02-01 14:50:27 --> Undefined array key "nik"
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\app\Models\User.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\WORK\\D...', 10)
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Auth.php(10): App\Models\User::authenticate('1234987', 'Adhika')
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#7 {main}
+CRITICAL - 2022-02-01 14:52:15 --> foreach() argument must be of type array|object, string given
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\app\Models\User.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\Users\\WORK\\D...', 9)
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Auth.php(10): App\Models\User::authenticate('123456789012345...', 'Adhika')
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#7 {main}
+CRITICAL - 2022-02-01 14:52:31 --> foreach() argument must be of type array|object, string given
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\app\Models\User.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\Users\\WORK\\D...', 9)
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Auth.php(10): App\Models\User::authenticate('123456789012345...', 'Adhika')
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#7 {main}
+CRITICAL - 2022-02-01 14:53:01 --> Undefined array key "nik"
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\app\Models\User.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\WORK\\D...', 10)
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Auth.php(10): App\Models\User::authenticate('123456789012345...', 'Adhika')
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#7 {main}
+CRITICAL - 2022-02-01 14:53:07 --> Undefined array key "nik"
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\app\Models\User.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\WORK\\D...', 10)
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Auth.php(10): App\Models\User::authenticate('123456789012345...', 'Adhika')
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#7 {main}
+CRITICAL - 2022-02-01 14:53:10 --> Undefined array key "nik"
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\app\Models\User.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\WORK\\D...', 10)
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Auth.php(10): App\Models\User::authenticate('123456789012345...', 'Adhika')
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#7 {main}
+CRITICAL - 2022-02-01 14:56:00 --> Undefined array key "nik"
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\app\Models\User.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\WORK\\D...', 10)
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Auth.php(10): App\Models\User::authenticate('123456789012345...', 'Adhika')
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#7 {main}
+CRITICAL - 2022-02-01 14:56:01 --> Undefined array key "nik"
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\app\Models\User.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\WORK\\D...', 10)
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Auth.php(10): App\Models\User::authenticate('123456789012345...', 'Adhika')
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#7 {main}
+CRITICAL - 2022-02-01 14:56:02 --> Undefined array key "nik"
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\app\Models\User.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\Users\\WORK\\D...', 10)
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Auth.php(10): App\Models\User::authenticate('123456789012345...', 'Adhika')
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#7 {main}
+CRITICAL - 2022-02-01 15:13:59 --> Undefined variable $_SESSION
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\app\Views\login.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\WORK\\D...', 45)
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\system\View\View.php(210): include('C:\\Users\\WORK\\D...')
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Home.php(14): view('login')
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Home->login()
+#6 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#10 {main}
+CRITICAL - 2022-02-01 15:21:48 --> Undefined variable $session
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\app\Views\login.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\WORK\\D...', 45)
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\system\View\View.php(210): include('C:\\Users\\WORK\\D...')
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Home.php(14): view('login')
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Home->login()
+#6 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#10 {main}
+CRITICAL - 2022-02-01 15:21:59 -->  route cannot be found while reverse-routing.
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Auth.php(16): redirect('http://localhos...')
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Auth->login()
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#8 {main}
+CRITICAL - 2022-02-01 15:24:29 --> Undefined variable $_SESSION
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\WORK\\D...', 14)
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Home->login()
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#6 {main}
+CRITICAL - 2022-02-01 15:24:32 --> Undefined variable $_SESSION
+#0 C:\Users\WORK\Documents\dika\ci4\ukk\app\Controllers\Home.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\Users\\WORK\\D...', 14)
+#1 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(825): App\Controllers\Home->login()
+#2 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\WORK\Documents\dika\ci4\ukk\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\WORK\Documents\dika\ci4\ukk\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\WORK\Documents\dika\ci4\ukk\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\WORK\\D...')
+#6 {main}

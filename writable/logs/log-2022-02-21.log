@@ -1,0 +1,9 @@
+CRITICAL - 2022-02-21 19:31:47 --> Attempt to read property "nik" on array
+#0 C:\xampp\htdocs\ukkrpl2022\app\Models\CatatanPerjalanan_model.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\ukkrpl2022\app\Controllers\CatatanPerjalanan.php(24): App\Models\CatatanPerjalanan_model::get_byNIK('333')
+#2 C:\xampp\htdocs\ukkrpl2022\system\CodeIgniter.php(825): App\Controllers\CatatanPerjalanan->index()
+#3 C:\xampp\htdocs\ukkrpl2022\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CatatanPerjalanan))
+#4 C:\xampp\htdocs\ukkrpl2022\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ukkrpl2022\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\ukkrpl2022\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
